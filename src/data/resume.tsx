@@ -154,6 +154,38 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "OddsView",
+      href: "https://odds-view.vercel.app",
+      dates: "July 2026",
+      active: true,
+      description:
+        "A sports betting odds dashboard — dark themed, tight data density, live scores and markets across football, basketball, tennis, American football, and MMA. Built as a hands-on showcase of the Next.js App Router, from Server/Client Component boundaries to a hand-rolled GraphQL BFF layer, i18n, and a colocated test suite.",
+      technologies: [
+        "Next.js 16",
+        "React",
+        "TypeScript",
+        "TailwindCSS",
+        "next-intl",
+        "Vitest + React Testing Library",
+        "GitHub Actions",
+        "Turbo"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://odds-view.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/sergioariza/odds-view",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/projects/odds-view.png",
+      video: "",
+    },
+    {
       title: "React UI Platform",
       href: "https://react-ui-platform-storybook.vercel.app",
       dates: "May 2026",
