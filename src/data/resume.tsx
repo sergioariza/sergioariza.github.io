@@ -99,6 +99,17 @@ export const DATA = {
   },
   work: [
     {
+      company: "Indra Group",
+      href: "https://www.indragroup.com/",
+      location: "Hybrid (Barcelona, Spain)",
+      title: "Frontent Architect",
+      logoUrl: "./work/indragroup.jpg",
+      start: "October 2026",
+      end: "Present",
+      description:
+        "Design and evolution of scalable frontend architectures for Vue.js applications, with a focus on micro frontend patterns, modularity, maintainability, and developer experience.",
+    },
+    {
       company: "Visma",
       href: "https://www.visma.com/",
       location: "Remote (Barcelona, Spain)",
